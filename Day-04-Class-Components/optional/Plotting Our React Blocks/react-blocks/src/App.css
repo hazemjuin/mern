@@ -1,0 +1,37 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width: 1000px;
+  background-color: #dddddd;
+}
+
+header {
+  background-color: green;
+  /* color: white; */
+  padding: 2rem;
+}
+
+nav {
+  /* background-color: #555; */
+  color: #6fa8dc;
+  padding: 0.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  background-color: red;
+}
+
+.sub-contents {
+  flex: 4;
+  background-color: yellow;
+  padding: 1rem;
+}
+
+.advertisement {
+  flex: 2;
+  background-color: #b4a7d6;
+  padding: 1rem;
+}
